@@ -16,7 +16,7 @@ function Projects(props) {
         </p>
         <a href="https://travel-keeper.netlify.app/">Live Site</a>
       </div>
-      git
+
       <div className="local-media">
         <h1>Local Media</h1>
         <img className="picture" src={localmedia} alt="local-media" />
