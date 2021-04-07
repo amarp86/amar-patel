@@ -3,11 +3,12 @@
 }
 
 .home-image-text{
+max-width: 400px;
     color:white;
-    
-    position: absolute;
+    background-color: rgba(202, 209, 209, 0.712);
+    position: sticky;
     left: 50px;
-    bottom: 50%;
+    bottom: 55%;
 }
 
 .home-image-text h2{
