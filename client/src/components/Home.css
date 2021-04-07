@@ -1,24 +1,48 @@
-.home{
-  height: 100%;
+.home {
+    height: 100%;
 }
 
 .home-image {
-  width: 100%;
+    width: 100%;
+    max-height: 50%;
 }
 
 .home-image-text {
-  min-width: 400px;
-  color: white;
-  background-color: rgba(202, 209, 209, 0.712);
-  position: absolute;
-  left: 50px;
-  bottom: 550px;
+    min-width: 400px;
+    color: white;
+    background-color: rgba(202, 209, 209, 0.712);
+    position: absolute;
+    left: 50px;
+    bottom: 45%;
 }
 
 .home-image-text h2 {
-  font-size: 45pt;
+    font-size: 25pt;
 }
 
 .home-image-text h4 {
-  font-size: 15pt;
+    font-size: 15pt;
+}
+
+.text-area {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    max-width: 60%;
+}
+
+@media only screen and (max-width: 800px) {
+    .home-image-text {
+        min-width: 200px;
+        color: black;
+        background-color: rgba(202, 209, 209, 0.712);
+        position: absolute;
+        left: 50px;
+        bottom: 80%;
+    }
+    .home-image-text h2 {
+        font-size: 15pt;
+    }
+    .home-image-text h4 {
+        font-size: 5pt;
+    }
 }

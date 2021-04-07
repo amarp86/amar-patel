@@ -1,4 +1,6 @@
 import travelkeeper from "../images/travel-keeper-screenshot.png";
+import localmedia from "../images/local-media-screenshot.png";
+import dogspot from "../images/thedogspot-screenshot.png";
 import "./Projects.css";
 function Projects(props) {
   return (
@@ -13,6 +15,24 @@ function Projects(props) {
           details, comments, and lets users "like" other users posts!
         </p>
         <a href="https://travel-keeper.netlify.app/">Live Site</a>
+      </div>
+      <div className="local-media>">
+        <h1>Local Media</h1>
+        <img className="picture" src={localmedia} alt="local-media" />
+        <p>
+          Local Media is a blog application that utlizes React and Axios on the
+          front end with an AirTable API as a database.
+        </p>
+        <a href="https://local-media.netlify.app/">Live Site</a>
+      </div>
+      <div className="the-dog-spot">
+        <h1>The Dog Spot</h1>
+        <img src={dogspot} alt="the-dog-spot" />
+        <p>
+          The Dog Spot is a full stack MERN application that ulizized React and
+          Axios on the front end which calls an Express/NodeJS backend.
+        </p>
+        <a href="https://the-dog-spot.netlify.app/">Live Site</a>
       </div>
     </div>
   );

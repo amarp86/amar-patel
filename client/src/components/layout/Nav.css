@@ -1,29 +1,26 @@
 .nav {
-  width: 100%;
-  background-color: #006494;
-  display: flex;
-  flex-direction: row;
-  
+    width: 100%;
+    background-color: #006494;
+    display: flex;
+    flex-direction: row;
 }
-.nav a{
+
+.nav a {
     text-decoration: none;
 }
 
-.title{
+.title {
     margin-left: 20px;
     color: white;
-    
 }
 
-.menu-links{
-    
+.menu-links {
     position: absolute;
     right: 20px;
     top: 30px;
-    
 }
 
-.menu-links a{
+.menu-links a {
     color: white;
     margin: 10px 10px;
 }
