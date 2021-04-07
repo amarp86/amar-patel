@@ -8,6 +8,7 @@ function Nav(props) {
       </Link>
       <div className="menu-links">
         <Link to="/projects">Recent Projects</Link>
+        <Link to="/contact">Contact Me</Link>
       </div>
     </div>
   );

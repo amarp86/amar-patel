@@ -16,8 +16,14 @@
 }
 
 .menu-links{
-    color: white;
+    
     position: absolute;
     right: 20px;
     top: 30px;
+    
+}
+
+.menu-links a{
+    color: white;
+    margin: 10px 10px;
 }
