@@ -1,4 +1,5 @@
 .nav {
+    min-height: 60px;
     width: 100%;
     background-color: #006494;
     display: flex;
@@ -23,4 +24,20 @@
 .menu-links a {
     color: white;
     margin: 10px 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .title {
+        font-size: 10pt;
+        position: absolute;
+        top: 10px;
+    }
+    .menu-links a {
+        font-size: 10pt;
+    }
+    .menu-links {
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
 }
