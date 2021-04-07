@@ -16,6 +16,7 @@ function Projects(props) {
         </p>
         <a href="https://travel-keeper.netlify.app/">Live Site</a>
       </div>
+      git
       <div className="local-media">
         <h1>Local Media</h1>
         <img className="picture" src={localmedia} alt="local-media" />
@@ -32,9 +33,10 @@ function Projects(props) {
         <img className="picture" src={dogspot} alt="the-dog-spot" />
         <p>
           The Dog Spot is a full stack MERN application that utilizes React and
-          Axios on the front end which calls an Express/NodeJS backend. The
-          application is geared towards adoption shelters nationwide to use as
-          an inventory/marketing site.
+          Axios on the front end which calls an Express/NodeJS backend that
+          designed and coded in an Agile/KanBan environment. The application is
+          geared towards adoption shelters nationwide to use as an
+          inventory/marketing site.
         </p>
         <a href="https://the-dog-spot.netlify.app/">Live Site</a>
       </div>
