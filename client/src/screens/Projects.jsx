@@ -16,12 +16,14 @@ function Projects(props) {
         </p>
         <a href="https://travel-keeper.netlify.app/">Live Site</a>
       </div>
-      <div className="local-media>">
+      <div className="local-media">
         <h1>Local Media</h1>
         <img className="picture" src={localmedia} alt="local-media" />
         <p>
           Local Media is a blog application that utlizes React and Axios on the
-          front end with an AirTable API as a database.
+          front end with an AirTable API as a database. The application is an
+          example of full stack applications that use a 3rd party backend
+          service.
         </p>
         <a href="https://local-media.netlify.app/">Live Site</a>
       </div>
