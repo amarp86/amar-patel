@@ -33,7 +33,7 @@ function Projects(props) {
         <img className="picture" src={dogspot} alt="the-dog-spot" />
         <p>
           The Dog Spot is a full stack MERN application that utilizes React and
-          Axios on the front end which calls an Express/NodeJS backend that
+          Axios on the front end which calls an Express/NodeJS backend that was
           designed and coded in an Agile/KanBan environment. The application is
           geared towards adoption shelters nationwide to use as an
           inventory/marketing site.
