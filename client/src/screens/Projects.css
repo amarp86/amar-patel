@@ -8,7 +8,9 @@
     box-shadow: 5px 5px 5px grey;
 }
 
-.travel-keeper p {
+.travel-keeper p,
+.local-media p,
+.the-dogs-pot p {
     padding-top: 15px;
     margin: 0 auto;
     max-width: 65%;
