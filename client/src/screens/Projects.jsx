@@ -27,7 +27,7 @@ function Projects(props) {
       </div>
       <div className="the-dog-spot">
         <h1>The Dog Spot</h1>
-        <img src={dogspot} alt="the-dog-spot" />
+        <img className="picture" src={dogspot} alt="the-dog-spot" />
         <p>
           The Dog Spot is a full stack MERN application that ulizized React and
           Axios on the front end which calls an Express/NodeJS backend.
