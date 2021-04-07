@@ -1,10 +1,11 @@
 import travelkeeper from "../images/travel-keeper-screenshot.png";
+import "./Projects.css";
 function Projects(props) {
   return (
     <div className="all-projects">
       <div className="travel-keeper">
         <h1>Travel Keeper</h1>
-        <img src={travelkeeper} alt="travelkeeper" />
+        <img className="picture" src={travelkeeper} alt="travelkeeper" />
         <p>
           Travel Keeper is a web application that utilizes React, Ruby on Rails,
           PostgreSQL, Javascript, HTML, and CSS in a full stack application. It

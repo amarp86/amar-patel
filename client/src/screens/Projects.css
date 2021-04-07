@@ -1,3 +1,15 @@
-.all-projects{
+.all-projects {
     min-height: 100%;
+}
+
+.picture {
+    width: 50%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.travel-keeper p {
+    padding-top: 15px;
+    margin: 0 auto;
+    max-width: 65%;
+    ;
 }
