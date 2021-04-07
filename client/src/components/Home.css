@@ -1,0 +1,19 @@
+.home-image{
+    width: 100%;
+}
+
+.home-image-text{
+    color:white;
+    
+    position: absolute;
+    left: 50px;
+    bottom: 50%;
+}
+
+.home-image-text h2{
+    font-size: 45pt;
+}
+
+.home-image-text h4{
+    font-size: 15pt;
+}
