@@ -1,10 +1,11 @@
 import "./Nav.css";
+import amar from "../../images/AmarPatel.png";
 import { Link } from "react-router-dom";
 function Nav(props) {
   return (
     <div className="nav">
       <Link to="/">
-        <h1 className="title">Amar Patel</h1>
+        <img src={amar} alt="logo" className="logo" />
       </Link>
       <div className="menu-links">
         <Link to="/projects">Recent Projects</Link>
