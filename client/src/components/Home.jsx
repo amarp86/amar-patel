@@ -12,9 +12,9 @@ function Home(props) {
         <h4>Software Engineer</h4>
       </div>
       <p className="text-area">
-        My name is Amar Patel and I like to figure out how things work. I spent
-        my life tinkering with a lot of technology with a desire to learn the
-        ins and outs of what makes the gears turn.
+        My name is Amar Patel and I like to figure out how things work. I spend
+        my life tinkering with a lot of technology - fueled by a desire to learn
+        the ins and outs of what makes the gears turn.
       </p>
     </div>
   );
