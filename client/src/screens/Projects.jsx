@@ -14,10 +14,10 @@ function Projects(props) {
           allows users to create accounts and post multiple posts with pictures,
           details, comments, and lets users "like" other users posts!
         </p>
-        <a href="https://travel-keeper.netlify.app/">
+        <a href="https://travel-keeper.netlify.app/" target="blank">
           <button>Live Site</button>
         </a>
-        <a href="https://github.com/amarp86/travel-keeper">
+        <a href="https://github.com/amarp86/travel-keeper" target="blank">
           <button>View Code</button>
         </a>
       </div>
@@ -31,10 +31,10 @@ function Projects(props) {
           example of full stack applications that use a 3rd party backend
           service.
         </p>
-        <a href="https://local-media.netlify.app/">
+        <a href="https://local-media.netlify.app/" target="blank">
           <button>Live Site</button>
         </a>
-        <a href="https://github.com/amarp86/Local-Media">
+        <a href="https://github.com/amarp86/Local-Media" target="blank">
           <button>View Code</button>
         </a>
       </div>
@@ -48,10 +48,10 @@ function Projects(props) {
           geared towards adoption shelters nationwide to use as an
           inventory/marketing site.
         </p>
-        <a href="https://the-dog-spot.netlify.app/">
+        <a href="https://the-dog-spot.netlify.app/" target="blank">
           <button>Live Site</button>
         </a>
-        <a href="https://github.com/amarp86/The-Dog-Spot">
+        <a href="https://github.com/amarp86/The-Dog-Spot" target="blank">
           <button>View Code</button>
         </a>
       </div>
