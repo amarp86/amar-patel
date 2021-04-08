@@ -12,10 +12,15 @@
     padding: 5px;
 }
 
+.github-image {
+    height: 25px;
+    padding: 5px;
+}
+
 .footer a {
     text-decoration: none;
 }
 
-.amar a {
+.amar {
     color: white;
 }
