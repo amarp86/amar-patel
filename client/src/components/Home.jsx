@@ -16,6 +16,12 @@ function Home(props) {
         my life tinkering with a lot of technology - fueled by a desire to learn
         the ins and outs of what makes the gears turn.
       </p>
+      <p className="text-area-two">
+        I have an extensive background in IT Administration as well as forward
+        facing Web Development. I recently completed an immersive 12 week full
+        stack development course through General Assembly and have come full
+        circile as a Full Stack Web Developer.
+      </p>
       <div className="skills">
         <h3>Proficient Skills:</h3>
         <ul>

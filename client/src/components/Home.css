@@ -16,7 +16,7 @@
   background-color: rgba(202, 209, 209, 0.712);
   position: absolute;
   left: 50px;
-  bottom: 45%;
+  bottom: 45vh;
 }
 
 .home-image-text h2 {
@@ -28,16 +28,30 @@
 }
 
 .text-area {
+  border-radius: 25px;
   box-shadow: 10px 10px 5px grey;
   background-color: lightyellow;
   margin: 0 auto;
+  padding: 0px 2px;
   margin-top: 20px;
   margin-bottom: 30px;
   max-width: 60%;
-  font-size: 25pt;
+  font-size: 23pt;
+}
+.text-area-two {
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px grey;
+  background-color: lightyellow;
+  margin: 0 auto;
+  padding: 0px 2px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  max-width: 60%;
+  font-size: 20pt;
 }
 
 .skills {
+  border-radius: 25px;
   box-shadow: 10px 10px 5px grey;
   background-color: lightyellow;
   margin: 0 auto;
@@ -47,7 +61,14 @@
   font-size: 15pt;
 }
 .skills h3 {
-  font-size: 22pt;
+  font-size: 18pt;
+}
+
+ul {
+  font-size: 12pt;
+  text-align: left;
+  list-style-position: outside;
+  padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -65,12 +86,13 @@
   .home-image-text h4 {
     font-size: 10pt;
   }
-  .text-area {
+  .text-area,
+  .text-area-two {
     box-shadow: 10px 10px 5px grey;
     background-color: lightyellow;
     margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     max-width: 80%;
     font-size: 15pt;
   }
