@@ -1,5 +1,5 @@
 import "./Nav.css";
-import amar from "../../images/AmarPatel.png";
+import amar from "../../images/amarpatel4.png";
 import { Link } from "react-router-dom";
 function Nav(props) {
   return (
