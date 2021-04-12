@@ -3,7 +3,7 @@ function Contact(props) {
   return (
     <div className="contact">
       <h1>Contact Me</h1>
-      <p>
+      <p className="text">
         If you would like to get in touch with me, please fill out the form
         below and I will get back to you as soon as possible!
       </p>

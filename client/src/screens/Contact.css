@@ -1,27 +1,31 @@
 .contact {
-    margin-top: 110px;
+  margin-top: 110px;
 }
 
 .contact-form {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-    padding-top: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  padding-top: 20px;
+}
+.text {
+  margin: 0 auto;
+  max-width: 85%;
 }
 
 .submit-button {
-    margin: 0 auto;
-    max-width: fit-content;
-    margin-top: 15px;
+  margin: 0 auto;
+  max-width: fit-content;
+  margin-top: 15px;
 }
 
 button {
-    margin: 0px 5px;
-    margin-top: 15px;
+  margin: 0px 5px;
+  margin-top: 15px;
 }
 
 .input {
-    margin: 5px 0px;
-    max-width: 100%;
+  margin: 5px 0px;
+  max-width: 100%;
 }
