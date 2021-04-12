@@ -32,9 +32,22 @@
   background-color: lightyellow;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   max-width: 60%;
   font-size: 25pt;
+}
+
+.skills {
+  box-shadow: 10px 10px 5px grey;
+  background-color: lightyellow;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 100px;
+  max-width: 60%;
+  font-size: 15pt;
+}
+.skills h3 {
+  font-size: 22pt;
 }
 
 @media only screen and (max-width: 900px) {
@@ -60,5 +73,8 @@
     margin-bottom: 100px;
     max-width: 80%;
     font-size: 15pt;
+  }
+  .skills h3 {
+    font-size: 12pt;
   }
 }

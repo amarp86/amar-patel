@@ -16,6 +16,21 @@ function Home(props) {
         my life tinkering with a lot of technology - fueled by a desire to learn
         the ins and outs of what makes the gears turn.
       </p>
+      <div className="skills">
+        <h3>Proficient Skills:</h3>
+        <ul>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>ReactJS</li>
+          <li>NodeJS</li>
+          <li>ExpressJS</li>
+          <li>Ruby</li>
+          <li>Ruby on Rails</li>
+          <li>MongoDB</li>
+          <li>Heroku/Netlify Deployment</li>
+        </ul>
+      </div>
     </div>
   );
 }

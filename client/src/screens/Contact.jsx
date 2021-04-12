@@ -26,11 +26,13 @@ function Contact(props) {
             name="message"
             placeholder="Message"
           />
+
           <button className="submit-button" type="submit">
             Send
           </button>
         </form>
       </div>
+      <p>Email me directly at amar.p86@gmail.com !</p>
     </div>
   );
 }
