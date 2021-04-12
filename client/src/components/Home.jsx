@@ -4,12 +4,14 @@ import "./Home.css";
 function Home(props) {
   return (
     <div className="home">
-      <h1>Software Engineer | Full Stack Developer</h1>
-      <img className="home-image" src={image} alt="home-banner" />
+      <h1 className="tagline">Software Engineer | Full Stack Developer</h1>
+      <div className="top-banner">
+        <img className="home-image" src={image} alt="home-banner" />
 
-      <div className="home-image-text">
-        <h2>Amar Patel</h2>
-        <h4>Software Engineer</h4>
+        <div className="home-image-text">
+          <h2>Amar Patel</h2>
+          <h4>Software Engineer</h4>
+        </div>
       </div>
       <p className="text-area">
         My name is Amar Patel and I like to figure out how things work. I spend
@@ -20,7 +22,7 @@ function Home(props) {
         I have an extensive background in IT Administration as well as forward
         facing Web Development. I recently completed an immersive 12 week full
         stack development course through General Assembly and have come full
-        circile as a Full Stack Web Developer.
+        circle as a Full Stack Web Developer.
       </p>
       <div className="skills">
         <h3>Proficient Skills:</h3>

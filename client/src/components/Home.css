@@ -10,13 +10,14 @@
 
 .home-image-text {
   min-width: 400px;
+  max-width: 400px;
   color: white;
   border-radius: 25px;
   box-shadow: 5px 5px 2px black;
   background-color: rgba(202, 209, 209, 0.712);
-  position: absolute;
+  position: relative;
   left: 50px;
-  bottom: 45vh;
+  bottom: 500px;
 }
 
 .home-image-text h2 {
@@ -25,6 +26,9 @@
 
 .home-image-text h4 {
   font-size: 15pt;
+}
+.tagline {
+  font-family: "Zilla Slab Highlight", cursive;
 }
 
 .text-area {
@@ -78,7 +82,7 @@ ul {
     background-color: rgba(202, 209, 209, 0.575);
     position: absolute;
     left: 50px;
-    bottom: 40%;
+    bottom: 45%;
   }
   .home-image-text h2 {
     font-size: 19pt;
