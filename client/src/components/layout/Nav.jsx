@@ -11,7 +11,7 @@ function Nav(props) {
         <Link to="/projects">Recent Projects</Link>
         <Link to="/contact">Contact Me</Link>
         <a
-          href="https://1drv.ms/w/s!Ah5HXdHVlST5kRK2P5m94N1cnV2o"
+          href="https://1drv.ms/w/s!Ah5HXdHVlST5kRpDp24gEJrzt8Vt"
           target="blank"
         >
           Resume
