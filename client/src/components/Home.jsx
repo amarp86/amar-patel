@@ -37,6 +37,10 @@ function Home(props) {
           <li>Ruby on Rails</li>
           <li>MongoDB</li>
           <li>Heroku/Netlify Deployment</li>
+          <li>CI/CD</li>
+          <li>UI/UX</li>
+          <li>SQL</li>
+          <li>Mongoose</li>
         </ul>
       </div>
     </div>
